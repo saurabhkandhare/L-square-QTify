@@ -27,6 +27,7 @@ import Logo from "../Logo/Logo";
 import Search from "../Search/Search";
 import Button from "../Button/Button";
 import  "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 function Navbar({ searchData }) {
     return (
@@ -39,9 +40,9 @@ function Navbar({ searchData }) {
             alignItems: 'center',
             justifyContent: 'space-between'
         }}>
-            <a href="/">
+            <Link to="/">
                 <Logo/>
-            </a>
+            </Link>
             <Search 
             placeholder={"Search a song of your choice"}
             searchData={searchData}
