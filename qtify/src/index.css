@@ -130,14 +130,14 @@ a:active {
 }
 
 .swiper-slide {
-  width: auto !important;
-  a,
+  width: auto !important; 
+}
+
+a,
 a:hover,
 a:focus,
 a:active {
   text-decoration: none;
   color: inherit;
-}
-  
 }
 
